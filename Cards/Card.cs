@@ -11,4 +11,8 @@ internal class Card
         Suit = suit;
         Value = value;
     }
+    public override string ToString()
+    {
+        return Name;
+    }
 }
