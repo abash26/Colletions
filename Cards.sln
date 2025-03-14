@@ -17,6 +17,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Lumberjacks", "Lumberjacks\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Comics", "Comics\Comics.csproj", "{6263B91D-846E-4B7B-9417-21800038FCAD}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Files", "Files\Files.csproj", "{0C6DFE11-57D5-4FA2-9486-D0FBEC8CF551}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -51,6 +53,10 @@ Global
 		{6263B91D-846E-4B7B-9417-21800038FCAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6263B91D-846E-4B7B-9417-21800038FCAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6263B91D-846E-4B7B-9417-21800038FCAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C6DFE11-57D5-4FA2-9486-D0FBEC8CF551}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C6DFE11-57D5-4FA2-9486-D0FBEC8CF551}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C6DFE11-57D5-4FA2-9486-D0FBEC8CF551}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C6DFE11-57D5-4FA2-9486-D0FBEC8CF551}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
