@@ -4,7 +4,7 @@ internal class Program
 {
     static void Main(string[] args)
     {
-        Random random = new Random();
+        var random = new Random();
         Queue<Lumberjack> lumberjacks = new Queue<Lumberjack>();
 
         string name;
