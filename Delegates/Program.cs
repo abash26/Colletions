@@ -1,5 +1,5 @@
 ﻿// See https://aka.ms/new-console-template for more information
-using Delegates;
+using Events;
 class Program
 {
     static readonly Ball ball = new Ball();

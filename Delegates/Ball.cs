@@ -1,4 +1,4 @@
-﻿namespace Delegates;
+﻿namespace Events;
 
 class BallEventArgs(int angle, int distance) : EventArgs
 {
@@ -19,7 +19,7 @@ class Pitcher
     private void BallInPlayEventHandler(object? sender, BallEventArgs e)
     {
         pitchNumber++;
-        if ((e.Distance < 95) && (e.Angle < 60))
+        if (e.Distance < 95 && e.Angle < 60)
             Console.WriteLine($"Pitch #{pitchNumber}: I caught the ball");
         else
             Console.WriteLine($"Pitch #{pitchNumber}: I covered first base");
